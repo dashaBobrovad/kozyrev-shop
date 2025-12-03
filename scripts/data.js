@@ -7,7 +7,7 @@ export const cardsData = [
     category: CATEGORY.MARKETING,
     price: 100,
     author: 'Jerome Bell',
-    image: '/assets/img/catalog/img-1.jpg'
+    image: '/assets/img/img-1.jpg'
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const cardsData = [
     category: CATEGORY.MANAGEMENT,
     price: 480,
     author: 'Marvin McKinney',
-    image: '/assets/img/catalog/img-2.jpg'
+    image: '/assets/img/img-2.jpg'
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const cardsData = [
     category: CATEGORY.HR,
     price: 200,
     author: 'Leslie Alexander Li',
-    image: '/assets/img/catalog/img-3.jpg'
+    image: '/assets/img/img-3.jpg'
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const cardsData = [
     category: CATEGORY.MARKETING,
     price: 530,
     author: 'Kristin Watson',
-    image: '/assets/img/catalog/img-4.jpg'
+    image: '/assets/img/img-4.jpg'
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const cardsData = [
     category: CATEGORY.DESIGN,
     price: 500,
     author: 'Guy Hawkins',
-    image: '/assets/img/catalog/img-5.jpg'
+    image: '/assets/img/img-5.jpg'
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ export const cardsData = [
     category: CATEGORY.MANAGEMENT,
     price: 400,
     author: 'Dianne Russell',
-    image: '/assets/img/catalog/img-6.jpg'
+    image: '/assets/img/img-6.jpg'
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ export const cardsData = [
     category: CATEGORY.DEVELOPMENT,
     price: 600,
     author: 'Brooklyn Simmons',
-    image: '/assets/img/catalog/img-7.jpg'
+    image: '/assets/img/img-7.jpg'
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const cardsData = [
     category: CATEGORY.HR,
     price: 150,
     author: 'Kathryn Murphy',
-    image: '/assets/img/catalog/img-8.jpg'
+    image: '/assets/img/img-8.jpg'
   },
   {
     id: 9,
@@ -71,6 +71,6 @@ export const cardsData = [
     category: CATEGORY.DESIGN,
     price: 240,
     author: 'Cody Fisher',
-    image: '/assets/img/catalog/img-9.jpg'
+    image: '/assets/img/img-9.jpg'
   }
 ];
