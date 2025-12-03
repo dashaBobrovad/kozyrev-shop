@@ -1,7 +1,7 @@
 import { CATEGORY_LABEL } from './constants.js';
 
 export function initCatalog(catalogEl, state) {
-  const listEl = catalogEl.querySelector('.catalog__list');
+  const listEl = catalogEl.querySelector('#catalog-list');
 
   state.onChange = render;
   render();

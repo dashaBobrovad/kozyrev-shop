@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     activeCategory: 'all'
   };
 
-  const catalogEl = document.querySelector('.catalog');
-  const filtersEl = document.querySelector('.filters');
-  const searchEl = document.querySelector('.search');
+  const catalogEl = document.getElementById('catalog');
+  const filtersEl = document.getElementById('filters');
+  const searchEl = document.getElementById('search');
 
   initCatalog(catalogEl, state);
   initFilters(filtersEl, state);
