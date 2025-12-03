@@ -1,13 +1,14 @@
 # kozyrev-shop
 
 ## Скрипты
-- `npm run dev:css` - запуск Sass в режиме watch, компиляция styles/main.scss → main.css
+- `npm run dev:css` - запуск Sass в режиме watch, компиляция styles/main.scss - main.css
 - `npm run clean` - очистка директории dist и создание её заново
 - `npm run build:css` - компиляция SCSS в минифицированный CSS (dist/main.css)
 - `npm run build:copy:root` - копирование index.html в dist/
-- `npm run build:copy:assets` - копирование содержимого папок scripts/ и assets/ в dist/
+- `npm run build:copy:assets` - копирование содержимого папки assets/ в dist/
+- `npm run build:copy:scripts` - копирование содержимого папки scripts/ в dist/
 - `npm run build:copy` - копирование всех необходимых файлов в dist/
-- `npm run build` - полная сборка проекта: очистка → компиляция CSS → копирование всех файлов
+- `npm run build` - полная сборка проекта: очистка - компиляция CSS - копирование всех файлов
 
 ### Что я хотела бы доработать
 
