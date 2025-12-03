@@ -8,9 +8,8 @@
     "clean": "rimraf dist && mkdir dist",
     "build:css": "sass styles/main.scss dist/main.css --no-source-map --style=compressed",
     "build:copy:root": "copyfiles index.html dist",
-    "build:copy:scripts": "copyfiles -u 1 scripts/**/*.js dist",
-    "build:copy:assets": "copyfiles assets/**/* dist",
-    "build:copy": "npm run build:copy:root && npm run build:copy:scripts && npm run build:copy:assets",
+    "build:copy:assets": "copyfiles scripts/**/* assets/**/* dist",
+    "build:copy": "npm run build:copy:root && npm run build:copy:assets",
     "build": "npm run clean && npm run build:css && npm run build:copy"
   },
   "repository": {
