@@ -5,6 +5,7 @@
 - `npm run clean` - очистка директории dist и создание её заново
 - `npm run build:css` - компиляция SCSS в минифицированный CSS (dist/main.css)
 - `npm run build:copy:root` - копирование index.html в dist/
+- `npm run build:copy:scripts` - копирование JS-файлов из папки scripts/ в dist/ (структура упрощается, без лишних вложений).
 - `npm run build:copy:assets` - копирование содержимого папок scripts/ и assets/ в dist/
 - `npm run build:copy` - копирование всех необходимых файлов в dist/
 - `npm run build` - полная сборка проекта: очистка → компиляция CSS → копирование всех файлов
