@@ -1,0 +1,31 @@
+{
+  "name": "kozyrev-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:css": "sass --watch styles/main.scss:main.css --no-source-map",
+    "clean": "rimraf dist && mkdir dist",
+    "build:css": "sass styles/main.scss dist/main.css --no-source-map --style=compressed",
+    "build:copy:root": "copyfiles index.html dist",
+    "build:copy:assets": "copyfiles scripts/**/* assets/**/* dist",
+    "build:copy": "npm run build:copy:root && npm run build:copy:assets",
+    "build": "npm run clean && npm run build:css && npm run build:copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashaBobrovad/kozyrev-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashaBobrovad/kozyrev-shop/issues"
+  },
+  "homepage": "https://github.com/dashaBobrovad/kozyrev-shop#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^6.1.2",
+    "sass": "^1.94.2"
+  }
+}

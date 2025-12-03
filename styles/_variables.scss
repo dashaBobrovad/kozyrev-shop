@@ -1,0 +1,24 @@
+$color-text-default: #9a9ca5;
+$color-text-secondary: #787a80;
+$color-border: #d7dadd;
+$color-accent: #ff4b4b;
+$color-danger: #ff4242;
+$color-show: #ffffff;
+
+$radius: 4px;
+
+$padding-mobile: 15px;
+
+$shadow:
+    0px 4px 4px -4px #1e212c08,
+    0px 12px 10px -6px #9a9ca50a,
+    0px 30px 24px -10px #9a9ca50d,
+    0px 80px 80px -20px #9a9ca514;
+
+$category-colors: (
+    marketing: #03cea4,
+    management: #5a87fc,
+    hr: #f89828,
+    design: #f52f6e,
+    development: #7772f1
+);

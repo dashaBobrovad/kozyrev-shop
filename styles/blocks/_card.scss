@@ -1,0 +1,70 @@
+.card {
+  border-radius: $radius;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-border;
+  box-shadow: $shadow;
+  height: 100%;
+
+  &__media {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    padding: 24px;
+  }
+
+  &__tag {
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: $radius;
+    color: $color-show;
+    padding: 0 8px;
+    box-sizing: border-box;
+    height: 23px;
+    white-space: nowrap;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    @each $name, $color in $category-colors {
+      &--#{$name} {
+        background-color: $color;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  &__bottom {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  &__price {
+    color: $color-danger;
+    font-weight: bold;
+  }
+
+  &__author {
+    color: $color-text-secondary;
+  }
+}

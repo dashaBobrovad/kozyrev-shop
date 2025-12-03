@@ -1,0 +1,40 @@
+.catalog {
+  &__controls {
+    display: flex;
+    gap: 16px;
+
+    @include max-mobile {
+      flex-direction: column-reverse;
+      margin-bottom: 30px;
+    }
+
+    @include min-desktop {
+      justify-content: space-between;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__filters {
+    @include inner-mobile;
+    @include outer-mobile;
+
+    @include min-desktop {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+
+    @include max-mobile {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    list-style: none;
+  }
+}
