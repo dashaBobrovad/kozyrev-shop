@@ -24,6 +24,9 @@
 
   &__content {
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
   }
 
   &__tag {
@@ -52,6 +55,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
+    flex-grow: 1;
   }
 
   &__bottom {

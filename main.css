@@ -488,6 +488,9 @@ template {
 }
 .card__content {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .card__tag {
   display: inline-block;
@@ -523,6 +526,7 @@ template {
   font-size: 20px;
   font-weight: bold;
   line-height: 1.5;
+  flex-grow: 1;
 }
 .card__bottom {
   font-size: 18px;
